@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Health Survey</h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" class ="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="smoking">Do you smoke?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" id="smoker">Yes
+            </label>
+            <label>
+              <input type="radio" id="non-smoker">No
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="drink">What do you drink in mornings?</label>
+          <select class="form-control" id="drink">
+              <option>Coffee</option>
+              <option>Tea</option>
+              <option>Water</option>
+              <option>Soda</option>
+              <option>Alcohol</option>
+              <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="favcolor">What is your favorite color?</label>
+          <input id="favcolor" class="form-control" type="color">
+        </div>
+        <button type="button" class="btn">Submit!</button>
+      </form>
+
+    </div>
+
+  </body>
+</html>
